@@ -8,7 +8,6 @@ import { CountDownProvider } from '../src/contexts/CountDownContext'
 import { DrinkWaterProvider } from '../src/contexts/DrinkWaterContext'
 import { CountDown } from '../src/components/CountDown'
 import { DrinkWater } from '../src/components/DrinkWater'
-import { DrunkWaterCup } from '../src/components/DrunkWaterCup'
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
     <DrinkWaterProvider>
       <CountDownProvider>
     <div className="App">
-     <DrunkWaterCup/>
      <CountDown />
      <DrinkWater/>
     </div>

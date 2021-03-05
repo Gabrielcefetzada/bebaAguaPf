@@ -15,3 +15,5 @@ export const DrunkWaterCup = () => {
         </div>
     )
 }
+
+export default DrunkWaterCup

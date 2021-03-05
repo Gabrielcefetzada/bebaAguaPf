@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useContext } from 'react'
 import { CountDownContext } from '../contexts/CountDownContext'
+import DrunkWaterCup from './DrunkWaterCup'
 
 export const CountDown = () => {
 
@@ -16,7 +17,7 @@ const [secondLeft, secondRight] = String(seconds).padStart(2, 0).split('')
 
 return (
     <div className="box">
-
+      <DrunkWaterCup/>
     <div className="containerDivide">
       <div className="justDivide"></div>
     </div>

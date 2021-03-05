@@ -1,10 +1,10 @@
 [
-    {
+      {
       "title": "Envelhecimento da pele ",
       "description": "médicos concordam que a bebida está por trás de muitos processos que ajudam na elasticidade da pele, impedindo que ela adquira um aspecto flácido ou seco." 
-    },
+      },
 
-    {
+      {
         "title": "Menor imunidade",
         "description": "Beber água permite que o seu corpo elimine as toxinas de forma contínua. Os órgãos trabalham para filtrar determinados resíduos como uma máquina – mas se você não alimentar a máquina com água, ela não pode trabalhar direito. O que acaba acontecendo em um corpo desidratado é os órgãos começarem a puxar a água de outras áreas que armazenam água, como o sangue, podendo levar a outras questões de saúde."
       },
@@ -34,4 +34,4 @@
         "description": "Sabia que a falta de resultados positivos em sua dieta pode ser consequência da pouca quantidade de água que você bebe? Isso acontece, curiosamente, porque nosso organismo nos faz confundir sede com fome e nos faz comer sem necessidade. Então sim, você tomar um copo de água e a tal fome passar, era só sede!" 
       }
    
-  ]
+]

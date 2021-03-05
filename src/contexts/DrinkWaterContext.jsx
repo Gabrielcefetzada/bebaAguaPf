@@ -14,12 +14,12 @@ export const DrinkWaterProvider = ({children}) => {
         const randomCuriosityIndex = Math.floor(Math.random() * curiosities.length)
         const currentCuriosity = curiosities[randomCuriosityIndex]
         setActiveCuriosity(currentCuriosity)
-        setDrunkWaterCup(drunkWaterCup + 1)
     }
 
     return (
         <DrinkWaterContext.Provider value={{
             startCuriosity,
+            setDrunkWaterCup,
             drunkWaterCup,
             activeCuriosity,
         }}>
