@@ -1,0 +1,37 @@
+[
+    {
+      "title": "Envelhecimento da pele ",
+      "description": "médicos concordam que a bebida está por trás de muitos processos que ajudam na elasticidade da pele, impedindo que ela adquira um aspecto flácido ou seco." 
+    },
+
+    {
+        "title": "Menor imunidade",
+        "description": "Beber água permite que o seu corpo elimine as toxinas de forma contínua. Os órgãos trabalham para filtrar determinados resíduos como uma máquina – mas se você não alimentar a máquina com água, ela não pode trabalhar direito. O que acaba acontecendo em um corpo desidratado é os órgãos começarem a puxar a água de outras áreas que armazenam água, como o sangue, podendo levar a outras questões de saúde."
+      },
+
+      {
+        "title": "Problemas digestivos e intestinais",
+        "description": "A falta de hidratação que atinge boca e garganta também ataca o sistema digestivo. Sem hidratação adequada, a quantidade de muco no estômago diminui, permitindo que o ácido do estômago cause danos (que conhecemos na forma de azia e indigestão). E esse mesmo processo de desidratação chega ainda ao intestino e ao cólon, que usam a água para aquele passo seguinte do trato digestivo – a evacuação. Estar sempre com o intestino preso é um sinal de falta de água."
+      },
+    
+      {
+        "title": "Pouca urina e coloração escura da mesma",
+        "description": "Pois é: se você tomasse a quantidade adequada de água, o correto seria ir ao banheiro de 5 a 7 vezes ao dia. Perda de tempo? Muitos pensam assim, esquecendo da água ou deixando para depois. Nada saudável. A urina deve ser eliminada com cor entre amarela e amarela clara. Se for um amarelo escuro, o corpo está dizendo que está falta hidratação – o que pode levar a infecções do trato urinário." 
+      },
+
+      {
+        "title": "Função renal comprometida",
+        "description": "Não beber água também é um pena fatal para seus rins. Isso porque a água facilita a filtragem que estes órgãos são encarregados de fazer para eliminar toxinas e reduzir os riscos de infecções urinárias e cálculos (conhecidos também como “pedras”)."
+      },
+
+      {
+        "title": "Ressecamento dos olhos",
+        "description": "Ninguém pensa nisso, mas não beber água também compromete a saúde de seus olhos. Isso porque, se o organismo está desidratado, a produção de lágrimas fica comprometida e isso enfraquece a proteção natural de nossos olhos contra infecções causadas por vírus e bactérias." 
+      },
+
+      {
+        "title": "Dificuldade em perder peso",
+        "description": "Sabia que a falta de resultados positivos em sua dieta pode ser consequência da pouca quantidade de água que você bebe? Isso acontece, curiosamente, porque nosso organismo nos faz confundir sede com fome e nos faz comer sem necessidade. Então sim, você tomar um copo de água e a tal fome passar, era só sede!" 
+      }
+   
+  ]

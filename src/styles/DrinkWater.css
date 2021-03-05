@@ -1,0 +1,18 @@
+.box img {
+    width: 60%;
+    height: 70%;
+}
+
+.containerDrink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.containerDrink p {
+    font-size: 1rem;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 3%;
+}

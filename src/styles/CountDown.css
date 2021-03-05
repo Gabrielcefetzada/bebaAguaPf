@@ -1,0 +1,59 @@
+.box {
+    width: 35vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    height: 75vh;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0 0 10px rgb(75, 157, 250);
+}
+
+.drunkWater {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   font-size: 3rem;
+   color: #0aa5ff;
+}
+
+.containerCountDown span {
+    background-color: rgb(236, 232, 232);
+    margin: 0 0.2rem;
+    font-size: 6.25rem;
+    width: 25vw;
+}
+
+.justDivide {
+    width: 70%;
+    height: 3px;
+    background-color: rgb(206, 205, 205);
+    border-radius: 10px;
+}
+
+.containerDivide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border: 0;
+    width: 25vw;
+    height: 4rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    background-color: rgb(5, 133, 238);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover {
+    filter: brightness(0.8);
+    cursor: pointer;
+}

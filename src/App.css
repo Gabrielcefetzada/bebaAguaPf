@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(to right top, #0aa5ff, #cff9ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
