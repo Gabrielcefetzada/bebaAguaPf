@@ -1,11 +1,10 @@
-import React, { useEffect, useState, useContext } from 'react'
+import React, { useContext } from 'react'
 import { CountDownContext } from '../contexts/CountDownContext'
 import DrunkWaterCup from './DrunkWaterCup'
 
 export const CountDown = () => {
 
 const { isActive,
-    time,
     hour,
     minutes,
     seconds,

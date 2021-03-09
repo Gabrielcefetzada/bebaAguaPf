@@ -27,7 +27,15 @@ export const CountDownProvider = ({ children }) => {
         } else if (time === 0) {
             startCuriosity()
             setIsDisplayCuriosity(true)
-            setTime(5)
+
+            new Audio('/audios/notificationDrinkWaterNow.wav').play()
+
+            if(Notification.permission === 'granted') {
+                new Notification('Beba água, seu biruta 💦💦💦', {
+                    body: 'Se estiver afim, veja aqui na plataforma um malefício que a falta de água pode causar.'
+                })
+            }
+            setTime(6)
 
         }
     }, [time, isActive])
@@ -42,7 +50,7 @@ export const CountDownProvider = ({ children }) => {
             isDisplayCuriosity,
             startCountDown,
         }}>
-            { children}
+            {children}
         </CountDownContext.Provider>
     )
 }

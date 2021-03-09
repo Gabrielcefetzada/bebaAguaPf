@@ -8,7 +8,7 @@ export const DrunkWaterCup = () => {
     return (
 
         <div>
-           <div class="drunkWater">
+           <div className="drunkWater">
           <span>Copos bebidos</span>
           <span>{drunkWaterCup}</span>
       </div>
