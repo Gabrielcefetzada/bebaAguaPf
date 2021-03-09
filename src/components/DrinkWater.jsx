@@ -10,7 +10,7 @@ export const DrinkWater = () => {
     const [timeDrunkWater, setTimeDrunkWater] = useState([])
 
     const getTimeDrunk = () => {
-        setTimeDrunkWater(new Date().toLocaleTimeString())
+        setTimeDrunkWater([...timeDrunkWater,new Date().toLocaleTimeString()])
     }
 
     return (
@@ -40,9 +40,9 @@ export const DrinkWater = () => {
                 </div>
             )}
             {
-                timeDrunkWater.map((el) => {
-                    <p>{}</p>
-                })
+                timeDrunkWater.map((el) => (
+                    <p key={Math.random()}>{el}</p>
+                ))
             }
         </>
 
