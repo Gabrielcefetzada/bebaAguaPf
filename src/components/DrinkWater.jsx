@@ -35,7 +35,7 @@ export const DrinkWater = () => {
                         <p>Após a primeira hora de jornada, um botão para registrar os copos bebidos aparecerá na tela</p>
                         <img alt="beba1" src="imgs/beba1.jpg"></img>
                         <strong style={{ fontSize: '1.5rem' }}>
-                            A cada copo tomado, te mostrarei um malefício de como não tomar água pode ser prejudicial para você
+                            A cada hora, te mostrarei um malefício de como não tomar água pode ser prejudicial para você
             </strong>
                     </div>
                 </div>
