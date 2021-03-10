@@ -1,5 +1,5 @@
 .box {
-    width: 35vw;
+    width: 30vw;
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;

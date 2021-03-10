@@ -32,18 +32,23 @@ export const DrinkWater = () => {
                     <div className="containerDrink">
                         <h1>Beba água!</h1>
                         <p>Inicie o cronômetro para iniciar sua jornada 🚀</p>
-                        <img src="imgs/beba1.jpg"></img>
+                        <img alt="beba1" src="imgs/beba1.jpg"></img>
                         <strong style={{ fontSize: '1.5rem' }}>
                             A cada copo tomado, te mostrarei um malefício de como não tomar água pode ser prejudicial para você
             </strong>
                     </div>
                 </div>
             )}
+            <div  className="containerTime">
+                <h1>Hora exata de cada copo tomado</h1>
             {
+                
                 timeDrunkWater.map((el) => (
                     <p key={Math.random()}>{el}</p>
                 ))
+                
             }
+            </div>
         </>
 
     )

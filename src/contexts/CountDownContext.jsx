@@ -21,7 +21,7 @@ export const CountDownProvider = ({ children }) => {
 
     useEffect(() => {
         if (time > 0 && isActive) {
-            const timer = setTimeout(() => {
+            setTimeout(() => {
                 setTime(time - 1)
             }, 1000)
         } else if (time === 0) {
@@ -30,7 +30,7 @@ export const CountDownProvider = ({ children }) => {
 
             new Audio('/audios/notificationDrinkWaterNow.wav').play()
 
-            if(Notification.permission === 'granted') {
+            if (Notification.permission === 'granted') {
                 new Notification('Beba água, seu biruta 💦💦💦', {
                     body: 'Se estiver afim, veja aqui na plataforma um malefício que a falta de água pode causar.'
                 })
