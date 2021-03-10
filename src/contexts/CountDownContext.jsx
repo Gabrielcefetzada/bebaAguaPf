@@ -18,7 +18,7 @@ export const CountDownProvider = ({ children }) => {
     const startCountDown = () => {
         setIsActive(true)
     }
-//something
+
     useEffect(() => {
         if (time > 0 && isActive) {
             setTimeout(() => {
