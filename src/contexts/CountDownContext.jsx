@@ -10,7 +10,7 @@ export const CountDownProvider = ({ children }) => {
 
     const [isActive, setIsActive] = useState(false)
     const [isDisplayCuriosity, setIsDisplayCuriosity] = useState(false)
-    const [time, setTime] = useState(3600)
+    const [time, setTime] = useState(3)
     const hour = Math.floor(time / 3600)
     const minutes = Math.floor(time % 3600 / 60)
     const seconds = time % 60;
@@ -35,7 +35,7 @@ export const CountDownProvider = ({ children }) => {
                     body: 'Se estiver afim, veja aqui na plataforma um malefício que a falta de água pode causar.'
                 })
             }
-            setTime(3600)
+            setTime(3)
 
         }
     }, [time, isActive])
